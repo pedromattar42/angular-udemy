@@ -1,0 +1,10 @@
+<hr />
+<h1>Investimentos</h1>
+
+<ul>
+    @for (item of investiments; track item.name) {
+        <li id="list-itens">{{item.name}} | {{item.value}}</li>
+    } @empty {
+
+    }
+</ul>
